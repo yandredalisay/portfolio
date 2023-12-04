@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.banner{
+    margin: 0px;
+    padding: 0px; 
+    font-family: poppins;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(creatives/background.png);
+    background-size: cover; 
+   
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0;
+    background-color: black;
+    border-bottom: 1px solid #fbff00;
+}
+.navbar img{
+    width: 80px;
+    height: 80px;
+    padding: 0 20px;
+
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '' ;
+    height: 3px;
+    width: 0;
+    background: #fbff00;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 500px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 70px;
+    margin: 20px auto;
+}
+.content span{
+    color: #fbff00;
+    font-size: 70px;
+    margin: 20px auto;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.header img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #f33c3c;
+    transform: translateY(10%);
+    
+}
+.content-2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    color: #fff;
+    transform: translateY(30%);
+}
+.content-2 h1 span{
+    color: #fbff00;
+    justify-content: left, space-between;
+    display: flex;
+}
+.content-2 h2{
+    justify-content: left, space-between;
+    align-items:flex-start;
+   color: red;
+   display: flex;
+   padding: 30px;
+   padding-bottom: 0px;
+}
+.content-2 p{
+    color: white;
+    padding-top: 0px;
+    padding: 20px;
+}
+.content-2 p span{
+    color: #fbff00;
+}
+footer {
+    text-align: center;
+}
